@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../botbloq-app/.idea/botbloq-app.iml" filepath="$PROJECT_DIR$/../botbloq-app/.idea/botbloq-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/botbloq-ros.iml" filepath="$PROJECT_DIR$/.idea/botbloq-ros.iml" />
     </modules>
   </component>
