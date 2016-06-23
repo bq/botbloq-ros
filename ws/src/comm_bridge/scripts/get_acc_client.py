@@ -34,7 +34,7 @@ def listener():
 @asynchronous.asynchronous()
 def talker():
     time.sleep(3)
-    rate = rospy.Rate(0.2)  # 10hz
+    rate = rospy.Rate(0.2)  # each 5 seconds
     while not rospy.is_shutdown():
         hello_str = "Message to mobile %s" % rospy.get_time()
         pub.publish(hello_str)

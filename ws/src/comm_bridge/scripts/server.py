@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger("ros")
 logging.getLogger('root').setLevel(logging.DEBUG)
 
-server = make_server('127.0.0.1', 8889, server_class=WSGIServer,
+server = make_server('', 8889, server_class=WSGIServer,
                      handler_class=WebSocketWSGIRequestHandler,
                      app=WebSocketWSGIApplication(handler_cls=ConnectionHandler))
 server.initialize_websockets_manager()
