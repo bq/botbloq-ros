@@ -1,10 +1,3 @@
-/*
- * serpiente_control.cpp
- *
- *  Created on: 20 de feb. de 2016
- *      Author: kaiser
- */
-
 //#include "OscillatorSerp.h"
 #include "gusano.h"
 
