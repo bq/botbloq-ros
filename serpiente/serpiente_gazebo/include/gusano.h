@@ -1,10 +1,3 @@
-/*
- * gusano.h
- *
- *  Created on: 20 de feb. de 2016
- *      Author: kaiser
- */
-
 #ifndef Worm_h
 #define Worm_h
 
