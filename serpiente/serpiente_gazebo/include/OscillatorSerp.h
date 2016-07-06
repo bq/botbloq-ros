@@ -1,10 +1,3 @@
-/*
- * OscillatorSerpSerp.h
- *
- *  Created on: 20 de feb. de 2016
- *      Author: kaiser
- */
-
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "std_msgs/Float64.h"
