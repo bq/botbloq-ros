@@ -1,5 +1,5 @@
 # botbloq-ros
-Ros program to control all modular robots
+Ros program to control modular robots
 
 ## Best practices to maintain this repo
 * Use develop branch to upload unstable code and master branch only after integration tests.
